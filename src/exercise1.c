@@ -9,6 +9,6 @@ int main() {
         sum += array[i];
     }
 
-    printf("%.3f\n", sum / 10.0);
+    printf("%.3f", sum / 10.0);
     return 0;
 }
