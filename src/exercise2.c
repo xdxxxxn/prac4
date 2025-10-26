@@ -8,7 +8,7 @@ int main() {
     }
 
     for(int i = 9; i >= 0; i--) {
-        printf("%.3f ", array[i]);
+        printf("%.3f", array[i]);
     }
 
     return 0;
