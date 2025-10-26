@@ -28,7 +28,7 @@ int main() {
 
     for(int i = 0; i < 10; i++) {
         for(int j = 0; j < 10; j++) {
-            printf("%.2f", res[i][j]);
+            printf("%.3f", res[i][j]);
         }
     }
 
