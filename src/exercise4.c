@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 int main(int argc, char** argv) {
-    int array[10];
-    int x = atoi(argv[1]);
+    double array[10];
+    double x = atof(argv[1]);
     int k = atoi(argv[2]);
 
     for(int i = 0; i < 10; i++) {
-        scanf("%d", &array[i]);
+        scanf("%lf", &array[i]);
     }
 
     for(int i = 9; i > k; i--) {
@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
     array[k] = x;
 
     for(int i = 0; i < 10; i++) {
-        printf("%d ", array[i]);
+        printf("%.3f ", array[i]);
     }
 
     return 0;
